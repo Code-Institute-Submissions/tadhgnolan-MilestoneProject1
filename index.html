@@ -9,10 +9,54 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets\css\style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Coffee Stories</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <!-- Code used from https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551 -->
+    <!-- Code used from https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects (Course Resources Section 3: CSS Components - Navbar & Navs. Brad Traversy) -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
+      <a class="navbar-brand" href="#"><strong>Coffee Stories</strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stories</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+              >Archive</a
+            >
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">February 2020</a>
+              <a href="#" class="dropdown-item">January 2020</a>
+              <a href="#" class="dropdown-item">December 2019</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -26,6 +70,10 @@
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/668eef35c0.js"
       crossorigin="anonymous"
     ></script>
   </body>
