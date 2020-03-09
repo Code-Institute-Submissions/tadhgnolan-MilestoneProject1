@@ -23,6 +23,13 @@
   text-shadow: 2px 2px 3px #000000 !important;
 }
 
+.navigation {
+}
+
+li {
+  font-size: 20px !important;
+}
+
 html,
 body,
 header,
