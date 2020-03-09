@@ -1,0 +1,16 @@
+/*Added custom css to resolve color issue with navbar */
+.navbar {
+  color: #59310e;
+  background-color: #4480a6;
+}
+
+.intro-2 {
+  background: url('../images/coffeecakebook.jpg') no-repeat center center;
+  background-size: cover;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
