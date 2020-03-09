@@ -8,6 +8,15 @@
   background: url('../images/coffeecakebook.jpg') no-repeat center center;
   background-size: cover;
 }
+
+.dropdown-menu {
+  background-color: #d0e2f2;
+}
+
+.dropdown-item {
+  color: #4480a6;
+}
+
 html,
 body,
 header,
