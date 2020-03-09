@@ -33,7 +33,15 @@ Tested css at https://validator.w3.org. No error found.
 
 Tested addition of Navbar icons in Chrome Dev Tools with all available phone & tablet presets as well as pc. Functioned normally on each.
 
-Tested html code at https://validator.w3.org. Found ID with whitespace. Corrected before retesting successfully.
+Tested html code for Navbar icons at https://validator.w3.org.
+
+Tested css code for Navbar icons at https://validator.w3.org. No error found.
+
+Tested html code for social media icons and About text at https://validator.w3.org.
+
+Ran into issues with some Bootstrap classes and followed by attempts using custom css code for position not working.
+
+Eventually had to work around by adding a large number of line breaks in html.
 
 Tested css at https://validator.w3.org. No error found.
 
@@ -60,6 +68,9 @@ https://fontawesome.com/icons/envelope-square?style=solid
 **Hero Image**
 Photo by Engin Akyurt from Pexels
 https://www.pexels.com/photo/coffee-and-cake-near-book-2478330/
+
+**About Section**
+https://htmlcheatsheet.com/css/
 
 **Fonts**
 Added FontAwesome script to html page https://kit.fontawesome.com/668eef35c0.js
