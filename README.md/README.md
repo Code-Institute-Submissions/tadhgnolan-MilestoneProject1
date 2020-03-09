@@ -1,81 +1,68 @@
-# Your Project's Name
+# **Coffee Stories**
 
-One or two paragraphs providing an overview of your project.
+### 1st Milestone Project - User Centric Frontend Development - Code Institute.
 
-Essentially, this part is your sales pitch.
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The owner requires a website to publish real life stories taken from the experiences of individuals working in the hospitality industry.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The purpose is to relate these experiences in an easy to read format, as unbiased as possible, while maintaining the anonymity of all involved. The goal being a simple sharing of human experience.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### UX
 
-## Features
+### Testing
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+Tested initial html layout with https://validator.w3.org
+Found error with initial commit. Bad value for attribute on link to style.css.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Tested navbar using server and https://validator.w3.org.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Found no issues with markdown validator, but navbar color was not displaying (all white, font not visible).
 
-### Features Left to Implement
-- Another feature idea
+Made custom css code to correct. Was successful.
 
-## Technologies Used
+Tested hero image using server and https://validator.w3.org.
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Found no issues with markdown validator, but hero image text was not displaying proper color or aligning correctly.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+Tried multiple different methods with Bootstrap classes & custom css with no success. Removing text for now. Will attempt to resolve before next commit.
 
+Tested main body sections-containers-rows in Chrome Dev Tools with all available phone & tablet presets as well as pc. Functioned normally on each.
 
-## Testing
+Tested html code at https://validator.w3.org. Found ID with whitespace. Corrected before retesting successfully.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Tested css at https://validator.w3.org. No error found.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Tested addition of Navbar icons in Chrome Dev Tools with all available phone & tablet presets as well as pc. Functioned normally on each.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Tested html code at https://validator.w3.org. Found ID with whitespace. Corrected before retesting successfully.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Tested css at https://validator.w3.org. No error found.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Resources
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+**Navbar** https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects
+(Course Resources Section 3: CSS Components - Navbar & Navs. Brad Traversy)
 
-## Deployment
+**Navbar Icons**
+https://fontawesome.com/icons/home?style=solid
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+https://fontawesome.com/icons/book-open?style=solid
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+https://fontawesome.com/icons/book?style=solid
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+https://fontawesome.com/icons/mug-hot?style=solid
 
+https://fontawesome.com/icons/calendar-alt?style=solid
 
-## Credits
+https://fontawesome.com/icons/envelope-square?style=solid
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+**Hero Image**
+Photo by Engin Akyurt from Pexels
+https://www.pexels.com/photo/coffee-and-cake-near-book-2478330/
 
-### Media
-- The photos used in this site were obtained from ...
+**Fonts**
+Added FontAwesome script to html page https://kit.fontawesome.com/668eef35c0.js
 
-### Acknowledgements
-
-- I received inspiration for this project from X
+**Favicon**
+https://cdn1.iconfinder.com/data/icons/love-for-books/154/reading-book-512.png
