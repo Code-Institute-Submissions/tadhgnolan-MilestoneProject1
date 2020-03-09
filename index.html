@@ -19,7 +19,11 @@
     <!-- Code used from https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects (Course Resources Section 3: CSS Components - Navbar & Navs. Brad Traversy) -->
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
-      <a class="navbar-brand ml-1" href="#"><strong>Coffee Stories</strong></a>
+      <a class="navbar-brand ml-1" href="#"
+        ><strong
+          >Coffee Stories<i class="fas fa-mug-hot ml-1"></i
+          ><i class="fas fa-book ml-1"></i></strong
+      ></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -35,16 +39,21 @@
         <ul class="navbar-nav mr-auto ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home<span class="sr-only">(current)</span></a
+              >Home<i class="fas fa-home ml-1"></i
+              ><span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">New Stories</a>
+            <a class="nav-link" href="#"
+              >New Stories<i class="fas fa-book-open ml-1"></i
+            ></a>
           </li>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
-              >Previously on Coffee Stories</a
-            >
+              >Previously on Coffee Stories<i
+                class="fas fa-calendar-alt ml-1"
+              ></i
+            ></a>
             <div class="dropdown-menu">
               <a href="#" class="dropdown-item">February 2020</a>
               <a href="#" class="dropdown-item">January 2020</a>
@@ -52,7 +61,9 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Submit your own story</a>
+            <a class="nav-link" href="#"
+              >Submit your own story<i class="fas fa-envelope-square ml-1"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -188,7 +199,7 @@
       </div>
     </section>
 
-    <section id="February">
+    <section id="February-2020">
       <div class="container">
         <div class="row">
           <div class="col-8 ml-auto mr-auto py-5 px-1">
@@ -198,7 +209,7 @@
               The place opened before 7:00 am and from that moment on the early
               birds pop in for breakfast. Most of the clients are regulars, the
               deli assistant doesn’t know all of them yet and still she gets a
-              bit nervous when seeing a “new face” like the one that just
+              bit nervous when seeing a “new face”, like the one that just
               arrived asking for a baguette with butter and bacon, but instead
               of bacon the man said rashers. She didn’t catch it immediately,
               she apologized and the man said it again: RASHERRRS. The girl
@@ -226,7 +237,7 @@
       </div>
     </section>
 
-    <section id="January">
+    <section id="January-2020">
       <div class="container">
         <div class="row">
           <div class="col-8 ml-auto mr-auto py-5 px-1">
@@ -266,7 +277,7 @@
       </div>
     </section>
 
-    <section id="December">
+    <section id="December-2019">
       <div class="container">
         <div class="row">
           <div class="col-8 ml-auto mr-auto py-5 px-1">
