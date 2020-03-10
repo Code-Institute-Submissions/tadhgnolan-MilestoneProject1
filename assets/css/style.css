@@ -23,6 +23,12 @@
   text-shadow: 2px 2px 3px #000000 !important;
 }
 
+#new-stories {
+  margin-top: 25px !important;
+  margin-bottom: 300 !important;
+  padding-top: 50px !important;
+}
+
 li {
   font-size: 20px !important;
 }
@@ -31,5 +37,6 @@ html,
 body,
 header,
 .view {
+  scroll-behavior: smooth;
   height: 100%;
 }
