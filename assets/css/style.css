@@ -17,6 +17,7 @@
 
 #intro {
   text-align: center !important;
+  height: 100%;
 }
 
 .dropdown-item {
@@ -28,7 +29,7 @@
   text-align: justify !important;
   color: #d0e2f2 !important;
   text-shadow: 2px 2px 3px #000000 !important;
-  padding-top: 50px !important;
+  padding-top: 10% !important;
   padding-bottom: 25px !important;
   font-size: 20px !important;
 }
@@ -69,4 +70,8 @@ header,
 .view {
   scroll-behavior: smooth;
   height: 100%;
+}
+
+body {
+  background-color: #e5dcb4;
 }
