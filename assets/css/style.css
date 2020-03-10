@@ -13,6 +13,10 @@
   background-color: #d0e2f2;
 }
 
+#intro {
+  text-align: center !important;
+}
+
 .dropdown-item {
   color: #4480a6;
 }
@@ -21,12 +25,13 @@
   text-align: justify !important;
   color: #d0e2f2 !important;
   text-shadow: 2px 2px 3px #000000 !important;
+  padding-top: 100px !important;
 }
 
 #new-stories {
   margin-top: 25px !important;
-  margin-bottom: 300 !important;
-  padding-top: 50px !important;
+  margin-bottom: 10px !important;
+  padding-top: 10px !important;
 }
 
 li {
