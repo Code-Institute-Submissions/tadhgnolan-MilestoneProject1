@@ -1,3 +1,5 @@
+/* Repeated use of !important property to overide issues with Bootstrap (BS) */
+
 /*Added custom css to resolve color issue with navbar */
 .navbar {
   color: #59310e;
@@ -21,20 +23,47 @@
   color: #4480a6;
 }
 
+/* Added custom alignment as I couldn't get BS alignment to function properly */
 .white-text {
   text-align: justify !important;
   color: #d0e2f2 !important;
   text-shadow: 2px 2px 3px #000000 !important;
-  padding-top: 100px !important;
+  padding-top: 50px !important;
+  padding-bottom: 25px !important;
+  font-size: 20px !important;
 }
 
+/* Added custom alignment as I couldn't get BS alignment to function properly */
 #new-stories {
-  margin-top: 25px !important;
+  margin-top: 10px !important;
   margin-bottom: 10px !important;
-  padding-top: 10px !important;
+  padding-top: 5px !important;
+}
+
+#contact-form {
+  position: absolute;
+  left: 15%;
+  width: 100%;
+}
+
+#contact-form-title {
+  text-align: center;
+  text-anchor: middle;
+}
+
+#submit {
+  background-color: #4480a6;
+  color: #d0e2f2;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 12px;
 }
 
 li {
+  font-size: 20px !important;
+}
+
+.dropdown-menu {
   font-size: 20px !important;
 }
 
@@ -44,4 +73,11 @@ header,
 .view {
   scroll-behavior: smooth;
   height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  li,
+  .dropdown-menu {
+    font-size: 30px !important;
+  }
 }
