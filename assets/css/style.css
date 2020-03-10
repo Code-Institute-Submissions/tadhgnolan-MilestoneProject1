@@ -15,10 +15,6 @@
   background-color: #d0e2f2;
 }
 
-.navbar-toggler {
-  margin-right: 12%;
-}
-
 #intro {
   text-align: center !important;
 }
@@ -45,21 +41,17 @@
 }
 
 #contact-form {
-  position: absolute;
-  left: 15%;
   width: 100%;
 }
 
 #contact-form-title {
   text-align: center;
-  text-anchor: middle;
 }
 
 #submit {
   background-color: #4480a6;
   color: #d0e2f2;
   width: 80%;
-  margin-left: 10%;
   border-radius: 12px;
 }
 
@@ -77,11 +69,4 @@ header,
 .view {
   scroll-behavior: smooth;
   height: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  li,
-  .dropdown-menu {
-    font-size: 30px !important;
-  }
 }
