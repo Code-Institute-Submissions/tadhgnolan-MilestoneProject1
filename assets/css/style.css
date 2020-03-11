@@ -2,7 +2,7 @@
 
 /*Added custom css to resolve color issue with navbar */
 .navbar {
-  color: #59310e;
+  color: #232c34;
   background-color: #157ebf;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .dropdown-menu {
-  background-color: #d0e2f2;
+  background-color: #6aaed9;
 }
 
 #intro {
@@ -20,7 +20,7 @@
 }
 
 .dropdown-item {
-  color: #4480a6;
+  color: #105691;
 }
 
 .landing-text {
@@ -75,6 +75,14 @@ li {
 .capital {
   font-size: 150% !important;
   padding-right: 1px;
+}
+
+#february-2020 {
+  background-color: teal;
+}
+
+#january-2020 {
+  background-color: tomato;
 }
 
 html,
