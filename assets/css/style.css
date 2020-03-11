@@ -24,12 +24,12 @@
 }
 
 #landing-text {
-  text-align: center center;
+  text-align: center;
 }
 
 #landing-subtext {
   font-size: 1.25rem;
-  text-align: center center;
+  text-align: center;
 }
 
 /* Added custom alignment as I couldn't get Bootstrap alignment to function properly */
