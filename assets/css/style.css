@@ -24,18 +24,24 @@
 }
 
 #landing-text {
-  text-align: center;
+  text-align: center center;
+}
+
+#landing-subtext {
+  font-size: 1.25rem;
+  text-align: center center;
 }
 
 /* Added custom alignment as I couldn't get Bootstrap alignment to function properly */
 .white-text {
   text-align: justify !important;
   color: #ffffff !important;
-  padding-top: 10% !important;
+  padding-top: 100px !important;
   padding-bottom: 25px !important;
   padding-left: 7%;
   padding-right: 7%;
   font-size: 20px !important;
+  position: relative;
 }
 
 /* Added custom alignment as I couldn't get BS alignment to function properly */
@@ -77,12 +83,24 @@ li {
   padding-right: 1px;
 }
 
-#february-2020 {
-  background-color: teal;
+#march-2020 {
+  background-color: #232c34;
+  color: white;
 }
 
-#january-2020 {
-  background-color: tomato;
+#february-2020 {
+  background-color: #105691;
+  color: white;
+}
+
+#december-2019 {
+  background-color: #232c34;
+  color: white;
+}
+
+#november-2019 {
+  background-color: #105691;
+  color: white;
 }
 
 html,
