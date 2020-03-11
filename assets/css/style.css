@@ -7,9 +7,8 @@
 }
 
 .intro-2 {
-  background: url=('..assets/images/coffeecakebook.jpg') no-repeat center center;
+  background: url(..images/heroimage.jpg) no-repeat center center;
   background-size: cover;
-  transition: all 0.5s ease-in-out;
 }
 
 .dropdown-menu {
@@ -17,7 +16,6 @@
 }
 
 #intro {
-  text-align: center !important;
   height: 100%;
 }
 
@@ -25,13 +23,18 @@
   color: #4480a6;
 }
 
+.landing-text {
+  text-align: center;
+}
+
 /* Added custom alignment as I couldn't get Bootstrap alignment to function properly */
 .white-text {
   text-align: justify !important;
-  color: #d0e2f2 !important;
-  text-shadow: 2px 2px 3px #000000 !important;
+  color: #ffffff !important;
   padding-top: 10% !important;
   padding-bottom: 25px !important;
+  padding-left: 7%;
+  padding-right: 7%;
   font-size: 20px !important;
 }
 
@@ -58,11 +61,11 @@
 }
 
 li {
-  font-size: 20px !important;
+  font-size: 1.25rem !important;
 }
 
 .dropdown-menu {
-  font-size: 20px !important;
+  font-size: 1.25rem !important;
 }
 
 .story {
