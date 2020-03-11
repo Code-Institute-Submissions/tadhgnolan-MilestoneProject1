@@ -3,7 +3,7 @@
 /*Added custom css to resolve color issue with navbar */
 .navbar {
   color: #59310e;
-  background-color: #4480a6;
+  background-color: #157ebf;
 }
 
 .intro-2 {
@@ -78,5 +78,5 @@ header,
 }
 
 body {
-  background-color: #e5dcb4;
+  background-color: #f2e0bd;
 }
