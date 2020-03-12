@@ -46,11 +46,12 @@
 }
 
 /* Added custom alignment as I couldn't get BS alignment to function properly */
-/* #new-stories {
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
-  padding-top: 5px !important;
-} */
+#new-stories {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
 
 #contact-form {
   width: 100%;
@@ -114,4 +115,5 @@ header,
 
 body {
   background-color: #f2e0bd;
+  font-family: 'Roboto Condensed', sans-serif;
 }
