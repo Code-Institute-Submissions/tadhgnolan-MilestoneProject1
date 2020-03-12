@@ -1,4 +1,4 @@
-/* Repeated use of !important property to overide issues with Bootstrap */
+/* Repeated use of !important property to overide Bootstrap styling */
 
 /*Added custom css to resolve color issue with navbar */
 .navbar {
@@ -125,4 +125,15 @@ header,
 body {
   background-color: #f2e0bd;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 2rem !important;
+  }
+  .navbar-brand,
+  .nav-link,
+  .dropdown-item {
+    font-size: 2rem !important;
+  }
 }
