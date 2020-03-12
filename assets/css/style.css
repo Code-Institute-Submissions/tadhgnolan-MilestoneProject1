@@ -9,6 +9,7 @@
 .intro-2 {
   background: url(../images/heroimage.jpg) no-repeat center center;
   background-size: cover;
+  padding-top: 100px;
 }
 
 .dropdown-menu {
