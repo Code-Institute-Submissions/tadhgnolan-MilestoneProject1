@@ -388,48 +388,45 @@
         </div>
       </div>
     </section>
-
     <!-- Form made with tutorials from https://www.w3schools.com/bootstrap4/bootstrap_forms.asp and https://azmind.com/bootstrap-align-center/ -->
-    <div class="container">
-      <div class="row h-30">
-        <div class="col-6">
-          <img class="img-fluid float-left" src="assets/images/image4.webp" />
-          <div class="top-left"><h3>Leave your story</h3></div>
-        </div>
-        <div class="col-6 justify-content-end align-items-end">
-          <section id="contact-form float-right">
-            <form action="/action_page.php">
-              <div class="form-group">
-                <label for="email">Email address:</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Please enter email"
-                  id="email"
-                  required
-                />
-                <div class="valid-feedback">Valid</div>
-                <div class="invalid-feedback">Please fill out this field</div>
-              </div>
-              <div class="form-group">
-                <label for="comment">Leave your story for consideration</label>
-                <textarea
-                  class="form-control"
-                  rows="6"
-                  id="comment"
-                  placeholder="Tell your story"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary" id="submit">
-                Send it
-              </button>
-            </form>
-            <br />
-            <i class="fas fa-envelope">: shareyourcoffeestories@gmail.com</i>
-          </section>
+    <section id="contact-form">
+      <div class="container">
+        <div class="row h-30">
+          <div class="col-12 py-4 justify-content-end align-items-end">
+            <section id="contact-form float-right">
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Please enter email"
+                    id="email"
+                    required
+                  />
+                  <div class="valid-feedback">Valid</div>
+                  <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="form-group">
+                  <label for="comment"
+                    >Leave your story for consideration</label
+                  >
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    id="comment"
+                    placeholder="Tell your story"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="submit">
+                  Send it
+                </button>
+              </form>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Footer code used & modified from https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
     <section id="footer">
       <!-- Footer -->
@@ -441,33 +438,32 @@
             <!-- Grid column -->
             <div class="col-md-12 py-5">
               <div class="mb-5 flex-center">
-                <!-- Facebook -->
-                <a class="fb-ic">
-                  <i
-                    class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"
-                  >
-                  </i>
-                </a>
-                <!-- Twitter -->
-                <a class="tw-ic">
-                  <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-                  </i>
-                </a>
+                <!--Facebook-->
+                <a
+                  class="btn-floating btn-lg btn-fb"
+                  type="button"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <!--Twitter-->
+                <a
+                  class="btn-floating btn-lg btn-tw"
+                  type="button"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
                 <!--Instagram-->
-                <a class="ins-ic">
-                  <i
-                    class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"
-                  >
-                  </i>
-                </a>
+                <a
+                  class="btn-floating btn-lg btn-ins"
+                  type="button"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
               </div>
             </div>
-            <!-- Grid column -->
           </div>
-          <!-- Grid row-->
         </div>
         <!-- Footer Elements -->
-
         <!-- Copyright -->
         <div class="footer-copyright light text-center py-3">
           © 2020 Copyright:
