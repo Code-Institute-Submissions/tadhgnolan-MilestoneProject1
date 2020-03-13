@@ -25,6 +25,7 @@
     <!-- Navbar -->
     <!-- Code used from https://mdbootstrap.com/snippets/jquery/mdbootstrap/102551 -->
     <!-- Code used from https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects (Course Resources Section 3: CSS Components - Navbar & Navs. Brad Traversy) -->
+    <!-- Used basic Navbar layout from MDBootsrap (similar to those at https://www.w3schools.com/, but with extra js styling). Removed unenecessary styling and added my own in css -->
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark Denim">
       <a class="navbar-brand ml-0" href="#intro"
@@ -388,39 +389,42 @@
       </div>
     </section>
 
-    <section id="contact-form">
-      <div class="row">
-        <div class="col-12 form-group px-">
-          <h3 id="contact-form-title">Tell me your story</h3>
-          <br />
-          <label for="email">Email address</label>
-          <input
-            class="form-control form-control-lg"
-            type="email"
-            id="email"
-            placeholder="Enter email"
-            required
-          />
-          <small class="form-text text-muted"
-            >Your email address will not ever be shared</small
-          >
-        </div>
-        <div class="col-12 form-group align-items-centre">
-          <label for="submit">Send your story for consideration</label>
-          <textarea
-            class="form-control"
-            id="message"
-            rows="3"
-            placeholder="Tell your story"
-            required
-          ></textarea>
-        </div>
-        <div class="col-12 pl-5 py-4">
-          <button id="submit" type="submit">Send it</button>
+    <!-- Form made with tutorials from https://www.w3schools.com/bootstrap4/bootstrap_forms.asp and https://azmind.com/bootstrap-align-center/ -->
+    <div class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-10 col-md-8 col-lg-6">
+          <section id="contact-form">
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Please enter email"
+                  id="email"
+                  required
+                />
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out this field</div>
+              </div>
+              <div class="form-group">
+                <label for="comment">Leave your story for consideration</label>
+                <textarea
+                  class="form-control"
+                  rows="6"
+                  id="comment"
+                  placeholder="Tell your story"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="submit">
+                Send it
+              </button>
+            </form>
+            <i class="fas fa-envelope">shareyourcoffeestories@gmail.com</i>
+          </section>
         </div>
       </div>
-    </section>
-
+    </div>
     <!-- Footer code used & modified from https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
     <section id="footer">
       <!-- Footer -->

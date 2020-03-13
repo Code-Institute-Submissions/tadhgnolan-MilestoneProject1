@@ -1,6 +1,6 @@
 /* Repeated use of !important property to overide Bootstrap styling */
 
-/*Added custom css to resolve color issue with navbar */
+/*Replacement styling for Navbar and nested dropdown menu*/
 .navbar {
   color: #232c34;
   background-color: #157ebf;
