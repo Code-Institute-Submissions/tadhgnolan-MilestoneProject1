@@ -35,19 +35,7 @@
   color: #faebd7 !important;
 }
 
-/* Added custom alignment as I couldn't get Bootstrap alignment to function properly */
-/* .white-text {
-  text-align: justify !important;
-  color: #ffffff !important;
-  padding-top: 100px !important;
-  padding-bottom: 25px !important;
-  padding-left: 7%;
-  padding-right: 7%;
-  font-size: 20px !important;
-  position: relative;
-} */
-
-/* Added custom alignment as I couldn't get BS alignment to function properly */
+/* Added custom alignment to overide Bootstrap */
 #new-stories {
   margin-top: 40px !important;
   margin-bottom: 40px !important;
@@ -56,8 +44,9 @@
 }
 
 #contact-form {
-  width: 40%;
-  padding-left 20%;
+  width: 70%;
+  padding-left: 5%;
+  align-self: center;
 }
 
 #contact-form-title {
@@ -86,25 +75,30 @@ li {
   font-size: 1.25rem;
 }
 
+/*For improved alignement with neighbouring text*/
 .rounded-circle {
   margin-top: 20px;
 }
 
+/*For improved alignment when accessed via links*/
 .story {
   margin-top: 40px !important;
 }
 
+/*To increase the size of the first letter of each story for visibility*/
 .capital {
   font-size: 150% !important;
   padding-right: 1px;
 }
 
+/*to over-ride linked styling*/
 .page-footer {
   background-color: #232c34 !important;
   color: white !important;
   text-align: center !important ;
 }
 
+/*To visually distinguish each month's story section by color*/
 #march-2020 {
   background-color: #232c34;
   color: white;
@@ -138,6 +132,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*for tablets ranging in size between iPad & iPad Pro*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body {
     font-size: 2rem !important;
@@ -146,11 +141,11 @@ body {
   .nav-link,
   .dropdown-item {
     font-size: 1.25rem !important;
-  }  
+  }
   .blockquote {
     font-size: 2.5rem !important;
   }
   p {
     font-size: 1.25rem !important;
   }
-} 
+}
