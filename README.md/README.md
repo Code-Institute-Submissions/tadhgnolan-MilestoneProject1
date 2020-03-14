@@ -85,9 +85,15 @@ Repeated real world testing performed with Google Pixel 3aXL (2160 × 1080px), N
 
 In Lighthouse (Chrome Dev Tools) Samsung Galaxy S5, Google Pixel 2, Pixel 2 XL, Apple iPhone 5/SE, iPhone 6,7 + 8, 6, 7 + 8 Plus, iPhone X, iPad, iPad Pro as well as all available responsive presets from Mobile S-320px to 4K-2560px were tested repeatedly.
 
-This functionality testing involved
+This functionality testing involved:
 
-- verifying all navbar & other links functioned as expected,
+- Verifying all navbar & other links functioned as expected.
+
+- Using Chrome Dev Tools Elements tab to test out small styling changes before adding.
+
+- Checking that fonts scaled correctly for each display size.
+
+-Checking for overflow.
 
 Tested initial html layout with https://validator.w3.org
 Found error with initial commit. Bad value for attribute on link to style.css.
