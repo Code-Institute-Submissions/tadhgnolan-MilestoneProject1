@@ -11,8 +11,9 @@ The purpose is to relate these experiences in an easy to read format, as unbiase
 ### Showcase
 
 A deployed link to the website can be found [here](https://tadhgnolan.github.io/MilestoneProject1/).
+![Preview](https://github.com/tadhgnolan/MilestoneProject1/blob/master/assets/images/readmeassets/landingsample.png)
 
-### User Stories
+### UX
 
 End users will be those already working in the hospitality industry or those who like to read of life experiences different to their own in a few short paragraphs. This encompasses a broad age range (essentially working age and beyond). The technological approach is mobile first
 
@@ -25,6 +26,10 @@ End users will be those already working in the hospitality industry or those who
 - As a user I would like to have a way to submit stories of my own.
 
 - As a user I would like to have access to social media links to what the creator is working on & media that interests them or is related to the sites content.
+
+**Wireframe Mockups**
+
+Click [here](https://github.com/tadhgnolan/MilestoneProject1/blob/master/assets/images/readmeassets/Coffee%20Stories%20Initial%20Mock%20Up.pdf) to see wireframe concept mockups for the website
 
 ### Features
 
@@ -157,13 +162,17 @@ Added theme-color meta tag after reviewing Lighthouse score in Chrome Dev Tools 
 ---
 
 Final lighthouse score 86.
-Click [here]() to see image of final test.
+Click [here](https://github.com/tadhgnolan/MilestoneProject1/blob/master/assets/images/readmeassets/lighthousescore.PNG) to see image of final test.
 
 ---
 
 Peer review of project by classmate during my final week.
 
 Project proposal meeting, midway review and final review by mentor, followed by action on any identified issues.
+
+### Remaining Bugs
+
+Unknown Javascript issue which I was unable to clearly identify. This did not manifest in any clearly visible way in the finished site, but did reduce the final Lighthouse score and possibly increased loading times.
 
 **Deployment**
 _On GitHub:_ Checked that branch was present in repository. Navigated to site repository on GitHub. Clicked settings under repository name. Selected master branch for GitHub Pages under source drop-down menu.
@@ -252,3 +261,5 @@ All written content was created by the site owner.
 - Many thanks go out to Stephen Seagrave who provided lots of advice and feedback throughout the project, as well as peer reviewing it during the final week. This was all invaluable.
 
 - I would also like to express much gratitude to Rhey Ann Magcalas for mentoring me through the process, as this was my first experience of frontend web development. Her advice and feedback was vital in helping me create the finished site.
+
+### Created by Tadhg Nolan

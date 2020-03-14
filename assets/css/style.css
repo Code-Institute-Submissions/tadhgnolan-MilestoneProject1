@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:,300,400,500,');
+
 /* Repeated use of !important property to overide Bootstrap styling */
 
 /* Used https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
@@ -69,6 +71,24 @@
 .fa:hover {
   opacity: 0.7;
   color: #232c34;
+}
+
+.whiteline {
+  max-width: 11rem;
+  border-width: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid #fafafa;
+}
+
+.greyline {
+  max-width: 11rem;
+  border-width: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid #232c34;
 }
 
 #intro {
