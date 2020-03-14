@@ -18,6 +18,59 @@
   background-color: #6aaed9;
 }
 
+.dropdown-menu {
+  font-size: 1.25rem !important;
+}
+
+.blockquote {
+  font-size: 1.25rem;
+}
+
+/*For improved alignement with neighbouring text*/
+.rounded-circle {
+  margin-top: 20px;
+}
+
+/*For improved alignment when accessed via links*/
+.story {
+  margin-top: 40px !important;
+}
+
+/*To increase the size of the first letter of each story for visibility*/
+.capital {
+  font-size: 150% !important;
+  padding-right: 1px;
+}
+
+/*to over-ride linked styling*/
+.page-footer {
+  background-color: #232c34 !important;
+  color: white !important;
+  text-align: center !important ;
+}
+
+.fa {
+  background-color: #0c88ef;
+  margin: auto;
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/*Headings for screenreader users*/
+.hidden-title {
+  display: none;
+}
+
+/*Hover to highlight icons and prevent accidental click*/
+.fa:hover {
+  opacity: 0.7;
+  color: #232c34;
+}
+
 #intro {
   height: 100%;
 }
@@ -61,54 +114,6 @@
 
 li {
   font-size: 1.25rem !important;
-}
-
-.dropdown-menu {
-  font-size: 1.25rem !important;
-}
-
-.blockquote {
-  font-size: 1.25rem;
-}
-
-/*For improved alignement with neighbouring text*/
-.rounded-circle {
-  margin-top: 20px;
-}
-
-/*For improved alignment when accessed via links*/
-.story {
-  margin-top: 40px !important;
-}
-
-/*To increase the size of the first letter of each story for visibility*/
-.capital {
-  font-size: 150% !important;
-  padding-right: 1px;
-}
-
-/*to over-ride linked styling*/
-.page-footer {
-  background-color: #232c34 !important;
-  color: white !important;
-  text-align: center !important ;
-}
-
-.fa {
-  background-color: #0c88ef;
-  margin: auto;
-  padding: 20px;
-  font-size: 30px;
-  width: 70px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-/*Hover to highlight icons and prevent accidental click*/
-.fa:hover {
-  opacity: 0.7;
-  color: #232c34;
 }
 
 /*To visually distinguish each month's story section by color*/

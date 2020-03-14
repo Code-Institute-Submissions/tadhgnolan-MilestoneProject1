@@ -9,8 +9,6 @@
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
@@ -100,7 +98,7 @@
       </div>
     </nav>
 
-    <!-- Intro/About/Hero Image -->
+    <!-- Intro/About/Hero Image/landing -->
     <header>
       <section id="intro">
         <div class="view intro-2">
@@ -130,13 +128,17 @@
           <div class="col-8 ml-auto mr-auto mb-5 pb-5 pt-5 px-1">
             <h3 class="blockquote">
               Learning on the go
-              <img
-                src="assets/images/image1.jpg"
-                class="rounded-circle float-none"
-                alt="image2"
-                width="130"
-                height="86.67"
-              />
+              <!-- Picture element used to provide alternate image sources for browsers not supporting webp -->
+              <picture>
+                <source srcset="assets/images/image1.jpg" />
+                <img
+                  src="assets/images/image1.webp"
+                  class="rounded-circle float-none"
+                  alt="image1"
+                  width="130"
+                  height="87"
+                />
+              </picture>
             </h3>
             <p class="blockquote-footer">
               Some words, expectations and off to the rodeo. The new employee
@@ -147,13 +149,16 @@
           <div class="col-8 ml-auto mr-auto my-1 pt-2 pb-1 px-1">
             <h3 class="blockquote">
               A lift up
-              <img
-                src="assets/images/image3.jpg"
-                class="rounded-circle float-none"
-                alt="image3"
-                width="130"
-                height="97.49"
-              />
+              <picture>
+                <source srcset="assets/images/image3.jpg" />
+                <img
+                  src="assets/images/image3.webp"
+                  class="rounded-circle float-none"
+                  alt="image3"
+                  width="130"
+                  height="97"
+                />
+              </picture>
             </h3>
             <p class="blockquote-footer">
               When positivism is applied, wonders may happen.
@@ -372,6 +377,8 @@
     </section>
     <!-- Form made with tutorials from https://www.w3schools.com/bootstrap4/bootstrap_forms.asp and https://azmind.com/bootstrap-align-center/ -->
     <section id="contact-form">
+      <!-- Added h3 with display set to none for screenreader users -->
+      <h3 class="hidden-title">Contact form</h3>
       <br />
       <div class="container">
         <div class="row h-30">
@@ -410,6 +417,8 @@
     </section>
     <!-- Footer code used as template & modified from https://mdbootstrap.com/docs/jquery/navigation/footer/ -->
     <section id="footer">
+      <!-- Added h3 with display set to none for screenreader users -->
+      <h3 class="hidden-title">Footer</h3>
       <!-- Footer -->
       <footer class="page-footer font-small gray darken-3">
         <!-- Footer Elements -->
@@ -423,6 +432,7 @@
                   class="fa"
                   href="https://www.facebook.com/coffee.stories.908"
                   target="_blank"
+                  rel="noreferrer"
                   ><i class="fab fa-facebook-f"></i
                 ></a>
                 <a
@@ -430,12 +440,14 @@
                   href="https://twitter.com/CoffeeStories4
                 "
                   target="_blank"
+                  rel="noreferrer"
                   ><i class="fab fa-twitter"></i
                 ></a>
                 <a
                   class="fa"
                   href="https://www.instagram.com/readcoffeestories/"
                   target="_blank"
+                  rel="noreferrer"
                   ><i class="fab fa-instagram"></i
                 ></a>
               </div>
@@ -465,10 +477,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/668eef35c0.js"></script>
     <script
-      src="https://kit.fontawesome.com/668eef35c0.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.0/js/mdb.min.js"></script>
   </body>
 </html>
