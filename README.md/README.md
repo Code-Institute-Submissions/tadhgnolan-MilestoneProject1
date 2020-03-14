@@ -93,7 +93,7 @@ This functionality testing involved:
 
 - Checking that fonts scaled correctly for each display size.
 
--Checking for overflow.
+- Checking for overflow.
 
 Tested initial html layout with https://validator.w3.org
 Found error with initial commit. Bad value for attribute on link to style.css.
